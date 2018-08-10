@@ -11,11 +11,11 @@ clone the project
 ```sh
 $ git clone https://github.com/jmessiass/backdoor.git
 ```
-install requirements and execute the server using python 3.
+install requirements and execute the server using python 3 (I recommend to use PYENV).
 ```sh
 $ cd backdoor
 $ pip install -r requirements.txt
-$ python3 server.py -p 12345 (choose any port)
+$ python server.py -p 12345 (choose any port)
 ```
 in another machine, execute the client (don't forget of using the same port from server)
 
