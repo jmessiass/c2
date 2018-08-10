@@ -2,8 +2,6 @@
 
 Example of a server and a client keep communication using sockets in python. 
 
-First of all change the IP from HOST in client.py.
-
 Steps:
 
 
@@ -18,7 +16,7 @@ $ cd backdoor
 $ pip install -r requirements.txt
 $ python server.py -p 12345 (choose any port)
 ```
-in another machine, execute the client (don't forget of using the same port from server)
+in another machine, execute the client (before run the client, set the IP from server in HOST and using the same PORT from server)
 
 ```sh
 $ python client.py
