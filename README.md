@@ -10,7 +10,7 @@ clone the project
 ```sh
 $ git clone https://github.com/jmessiass/backdoor.git
 ```
-install requirements and execute the server using python 3 (I recommend to use PYENV).
+install requirements and execute the server using python 3 (I recommend to use pyenv).
 ```sh
 $ cd backdoor
 $ pip install -r requirements.txt
