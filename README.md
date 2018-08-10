@@ -1,7 +1,8 @@
 # Backdoor
 
-Example of a server and a client keep communication using sockets in python. First of all change the IP from HOST in client.py.
+Example of a server and a client keep communication using sockets in python. 
 
+First of all change the IP from HOST in client.py.
 
 Steps:
 
