@@ -49,7 +49,9 @@ class Server(object):
             command = input(Style.BRIGHT + '$ ' + Style.RESET_ALL)
             client_socket.sendall(command.encode())
 
-            if command == 'quit' or command == 'exit' or command == 'q':
+            if command == '':
+                continue
+            elif command == 'quit' or command == 'exit' or command == 'q':
                 print(Fore.GREEN + '\n[ Info ]' + Fore.BLUE + ' Session ended\n' + Style.RESET_ALL)
                 break
 
