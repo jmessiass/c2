@@ -2,6 +2,10 @@ import socket
 import subprocess
 import os
 
+# Created by Jonathan Messias - jmcybers@gmail.com
+# GitHub https://github.com/jmessiass
+
+
 HOST = 'IP_SERVER'
 PORT = 12345
 
