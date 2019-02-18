@@ -1,4 +1,4 @@
-# Backdoor
+# C2
 
 Example of a server and a client keep communication using sockets in python. 
 
